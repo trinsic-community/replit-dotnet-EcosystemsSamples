@@ -1,0 +1,4 @@
+run = "dotnet restore"
+
+[nix]
+channel = "stable-21_11"
