@@ -1,4 +1,8 @@
-run = "dotnet restore"
+run = "dotnet restore && dotnet build --no-restore"
 
 [nix]
 channel = "stable-21_11"
+
+[env]
+DOTNET_CLI_TELEMETRY_OPTOUT = "true"
+AUTH_TOKEN = ""

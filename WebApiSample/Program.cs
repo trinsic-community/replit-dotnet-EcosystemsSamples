@@ -1,7 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddTrinsic(options => options.AuthToken = "<insert auth token>");
+builder.Services.AddTrinsic(options => {
+  // configure server auth token
+  options.AuthToken = Environment.GetEnvironmentVariable("AUTH_TOKEN");
+});
 
 var app = builder.Build();
 
