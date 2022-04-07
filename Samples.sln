@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateEcosystem", "CreateEc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSample", "WebApiSample\WebApiSample.csproj", "{C30DDAE2-E3AB-476F-959E-9756E43998FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignInWithEmail", "SignInWithEmail\SignInWithEmail.csproj", "{411C1605-4057-4ED2-87CF-9107188C8CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{C30DDAE2-E3AB-476F-959E-9756E43998FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30DDAE2-E3AB-476F-959E-9756E43998FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30DDAE2-E3AB-476F-959E-9756E43998FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411C1605-4057-4ED2-87CF-9107188C8CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411C1605-4057-4ED2-87CF-9107188C8CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411C1605-4057-4ED2-87CF-9107188C8CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411C1605-4057-4ED2-87CF-9107188C8CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
